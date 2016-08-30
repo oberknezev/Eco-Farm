@@ -1,0 +1,718 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+a { 
+    position: relative;
+    cursor: pointer;
+}
+a:active {
+    top: 1px;
+}
+a, a:hover, a:visited, a:active, a:focus {
+    outline: none;
+    text-decoration: none;
+}
+/*         -----------------       HEADER     */
+.headerLogo {
+    display: none;
+}
+.headerAddress {
+    text-transform: uppercase;
+    text-align: center;
+}
+.topAddress {
+    font-size: 14px;
+    color: #979797;
+}
+.phoneNo span {
+    color: #95c300;
+}
+.phoneNo {
+    font-size: 30px;
+    color: #ff8f3c;
+    font-weight: 300;
+}
+.workinH {
+    font-size: 14px;
+    color: #4c4c4c;
+}
+.headerSocial {
+    padding: 15px 0 0 0;
+    text-align: center;
+}
+.headerSocial ul {
+    overflow: auto;
+    padding: 0;
+    display: inline-block;
+    margin: 0;
+}
+.headerSocial ul li {
+    list-style-type: none;
+    float: left;
+}
+.headerSocial ul li a i {
+    color: red;
+    width: 40px;
+    height: auto;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 10px;
+}
+.headerSocial .fa-facebook {
+    color: #507cbe;
+}
+.headerSocial .fa-twitter {
+    color: #00abef;
+}
+.headerSocial .fa-google {
+    color: #d93e2d;
+}
+.headerSocial .fa-linkedin {
+    color: #3371b7;
+}
+.headerSocial .fa-flickr {
+    color: #ff0080;
+}
+.headerSocial .fa-skype {
+    color: #28abe3;
+}
+.navbar-brand {
+    padding: 7px 15px;
+}
+/*         -----------------       NAV    */
+.navbar ul li {
+    text-transform: uppercase;
+    color: #4c4c4c;
+    font-size: 14px;
+}
+.shoppingCart {
+    display: none;
+}
+.nav {
+    display: inline-block;
+    margin-bottom: -6px;
+}
+#myNavbar {
+    text-align: center;
+}
+.navbar .nav {
+    float: none;
+}
+.navbar ul li img {
+    padding-right: 10px;
+}
+.navbar ul li .form-group {
+    display: none;
+}
+.navbar .form-group {
+    margin-top: -5px;
+    margin-bottom: 15px;
+    padding-top: 7px;
+}
+.navbar input[type=text] {
+    width: 120px;
+    display: inline-block;
+    border: none;
+    color: #979797;
+    font-style: italic;
+    padding: 0;
+    font-size: 16px;
+    background-color: #F8F8F8;
+}
+.navbar input[type=submit] {
+    background: #fff url('style-images/search.png') no-repeat center center;
+    border: none;
+    width: 25px;
+    padding: 0;
+    background-color: #F8F8F8;
+}
+.navbar {
+    margin: 0;
+}
+/*         -----------------       section CONTACT US     */
+.contactUs {
+    background: url('../img/contactUsBG.png') no-repeat center top;
+    background-size: cover;
+    padding: 15px 0;
+}
+.contactUs h1 span {
+    font-family: 'Mr De Haviland', cursive;
+    color: #95c300;
+    font-size: 64px;
+}
+.contactUs h3 {
+    color: #fff;
+    font-size: 16px;
+    margin-top: -10px;
+    padding-bottom: 20px;
+}
+.contactUs .form-group {
+    margin-bottom: 5px;
+}
+.contactUs textarea {
+    margin-bottom: 20px;
+}
+.btn-default {
+    background-color: #ff8f3c;
+    border: none;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color:#fff;
+}
+/*         -----------------       section SERVICES     */
+.services {
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+.services .img-rounded {
+    border-radius: 50%;
+}
+.services figure { 
+    height: 260px;
+    position: relative;
+}
+.services img {   
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width:auto;
+    max-width: 100%;
+    height:auto;
+    max-height: 100%; 
+    margin: auto;
+    border: 3px solid #fff;
+}
+.services h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.services h2 span {
+    font-weight: 700;
+}
+.services h5 {
+    width: 240px;
+    margin: 0 auto;
+    padding: 10px 0 15px 0;
+}
+.guaranteed {
+    color: #95c300;
+}
+.quality {
+    color: #ffc232;
+}
+.healthy {
+    color: #ff8f3c;
+}
+.always {
+    color: #ff4b2d;
+}
+/*         -----------------       section TabPanel     */
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #95c300;
+    cursor: default;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+    border: none;
+}
+.tabPanel ul li a {
+    color: #666666;
+}
+.tabPanel a:hover, .tabPanel a:active, .tabPanel a:focus {
+    outline:0;
+}
+.tabPanel .col-xs-6 {
+    padding: 0;
+}
+/*.tabPanel figure { 
+    width: 100%;
+    position: relative;
+}
+.tabPanel figure img {   
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width:auto;
+    max-width: 100%;
+    height:auto;
+    max-height: 100%; 
+    margin: auto;
+}*/
+.tabPanel figure {
+    height: 100px;
+    display: flex;
+}
+.tabPanel figure img {
+    align-items: stretch;
+    width:100%;
+}
+
+
+
+
+
+/*         -----------------       section ABOUT US     */
+.aboutUs {
+    padding: 0 0 10px 0;
+}
+.aboutUs h1 {
+    font-family: 'Mr De Haviland', cursive;
+    font-size: 100px;
+    color: #95c300;
+    padding-top: 10px;
+}
+.aboutUs h3 {
+    font-size: 50px;
+    color: #ff8f3c;
+    font-weight: 300;
+    margin-top: -25px;
+    padding-bottom: 10px;
+}
+.aboutUs .experience {
+    text-transform: uppercase;
+    text-align: center;
+}
+.aboutUs .experience span {
+}
+.aboutUs img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+
+/*         -----------------       section TESTIMONIALS     */
+.testimonials {
+    background-color: #343434;
+    padding: 15px 0 15px 0;
+}
+.testimonials .arrow_box {
+    position: relative;
+    background: #ffffff;
+    display: flex;
+}
+.testimonials .arrow_box:after {
+    top: 100%;
+    left: 50px;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(255, 255, 255, 0);
+    border-top-color: #ffffff;
+    border-width: 10px;
+    margin-left: -10px;
+}
+.testimonials .arrow_box img {
+    padding: 10px 10px 5px 5px;
+    float: left;
+}
+.testimonials .arrow_box h5 {
+    padding: 5px 0 5px 10px;
+    font-weight: 400;
+    color: #989898;
+    line-height: 30px;
+}
+.testImg {
+    align-items: stretch;
+}
+.testimonials figure {
+    width: 80px;
+    margin-left: 10px;
+    display: inline-block;
+    float: left;
+}
+.testimonials figure img {
+    border-radius: 50%;
+    margin: 15px 0;
+    display: inline-block;
+}
+.testimonials h3 {
+    color: #fff;
+    font-size: 18px;
+}
+.testimonials h4 {
+    color: #95c300;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.testFigure {
+    float: left;
+    padding: 35px 0 0 15px;
+}
+/*         -----------------       section NEWS     */
+
+.newsTitle h1 {
+    font-family: 'Mr De Haviland', cursive;
+    font-size: 40px;
+    color: #95c300;
+    padding-top: 5px;
+}
+.newsTitle h2 {
+    font-size: 50px;
+    color: #ff8f3c;
+    font-size: 35px;
+    font-weight: 300;
+    margin-top: -10px;
+    padding-bottom: 10px;
+}
+.newsWindow {
+    border: 1px solid #e5e5e5;
+    width: 260px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.newsWindow figure {
+    margin: 0 auto;
+}
+.newsWindow img {
+    margin: 0 auto;
+}
+.newsWindow h4 {
+    color: #ff8f3c;
+    font-size: 14px;
+    padding: 10px 0;               
+}
+.newsWindow h3 {
+    color: #4c4c4c;
+    font-size: 30px;
+    font-weight: 300;
+}
+.newsWindow h3:hover {
+    color: #95c300;
+    cursor: pointer;
+}
+.newsWindow p {
+    color: #989898;
+    font-size: 16px;
+    padding: 10px 0;
+}
+.seenCounter, .likedCounter, .comentsCounter {
+    float: left;
+    width: 33.33%;
+    padding: 15px 0;
+    border-top: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+}
+.newsCounters div{
+}
+.newsCounters div:nth-child(3) {
+    border-right: none;
+}
+/*         -----------------       section PURCHASE     */
+.purchase {
+    text-align: center;
+    background-color: #343434;
+    padding: 15px 0;
+    color: #fff;
+}
+.purchase h3:nth-child(1) {
+    font-weight: 400;
+}
+.purchase h3:nth-child(2) {
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.purchase button {
+    background-color: #95c300;
+    padding: 15px 20px;
+    margin: 0;
+    position: relative;
+}
+.purchase button:active {
+    top:1px;
+}
+.purchase button:focus {
+    outline: none;
+    background-color: #95c300;
+}
+/*         -----------------       section ADVANTAGES     */
+.advantages h1 {
+    font-family: 'Mr De Haviland', cursive;
+    font-size: 40px;
+    color: #95c300;
+    padding-top: 5px;
+}
+.advantages h2 {
+    font-size: 50px;
+    color: #ff8f3c;
+    font-size: 35px;
+    font-weight: 300;
+    margin-top: -15px;
+    padding-bottom: 10px;
+}
+.advantagesPart {
+    display: flex;
+}
+.advantagesPart p {
+    padding: 10px 0 10px 10px;
+}
+.advantagesPart span {
+    font-weight: 700;
+    display: inline-block;
+    padding: 5px 0 10px 0;
+}
+.advantages figure {
+    align-items: stretch;
+    padding: 10px 0 0 0;
+    width: 26px;
+}
+.advantagesPart a {
+    color: #4c4c4c;
+}
+.advantagesPart a:hover {
+    color:#95c300;
+}
+
+/*         -----------------       section CONTACTS     */
+.contacts {
+    background-color: #f7f7f7;
+}
+.contacts h2 {
+    font-size: 30px;
+    color: #95c300;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+.contacts h4 {
+    color: #989898;
+    font-size: 16px;
+}
+.contacts h4:nth-child(3) {    /*zasto ovde radi posao na nth child 3 a ne na nth child 2 od h4 kao sto bi bilo logicno?*/
+    padding-bottom: 10px;
+}
+.contacts span {
+    color: #4c4c4c;
+}
+.contacts h4 {
+    line-height: 20px;
+}
+.contactsAddress h4{
+    font-size: 15px;
+    line-height: 20px;
+}
+.contactsHours h2 {
+    color: #ffc232;
+}
+.contactsPhone h2 {
+    color: #ff8f3c;
+}
+.contactsEmail h2 {
+    color: #ff4b2d;
+}
+.contactsEmail a {
+    color: #989898;
+}
+.contactsEmail a:hover {
+    color:#95c300;
+}
+#googleMap {
+    margin: 10px 0;
+}
+.almostEnd h2 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #666666;
+    padding-bottom: 10px;
+
+}
+.almostEnd .newsletter input[type=text] {
+    width: 250px;
+    display: inline-block;
+    border: none;
+    color: #979797;
+    font-style: italic;
+    padding: 0;
+    font-size: 14px;
+}
+.almostEnd .newsletter input[type=submit] {
+    background: #fff url('style-images/penOrange.png') no-repeat center center;
+    border: none;
+    width: 25px;
+    padding: 0;
+    position: relative
+}
+.almostEnd .newsletter input[type=submit]:active {
+    top: 1px;
+}
+.almostEnd .newsletter input[type=submit]:hover {
+    background: #fff url('style-images/penGreen.png') no-repeat center center;
+}
+.almostEnd h5 {
+    color: #989898;
+    font-size: 16px;
+    padding: 10px 0 20px 0;
+}
+.almostEnd #flickrBadge a{
+    margin: 2px;
+}
+.almostEnd #flickrBadge {
+    margin: 0 auto;
+}
+.almostEnd span {
+    color: #ff8f3c;
+    font-weight: 700;
+}
+.discount {
+    padding: 20px 0 0 0;
+}
+.discount p {
+    color: #95c300;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+footer {
+    background-color: #343434;
+    padding: 15px 0;
+}
+footer .mwt, footer .allRights, footer .footerLogo {
+    color: #989898;
+    display: inline-block;
+}
+.footerLogo {
+    float: left;
+    padding-left: 20px;
+}
+.mwt {
+    padding-right: 10px;
+    padding-top: 20px;
+}
+.mwt span {
+    color: #fff;
+}
+.mwt span:hover{
+    color: #95c300;
+}
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------- teamMember.html PAGE*/
+.teamMember {
+    text-align: center;
+}
+.teamMember .breadcrumb {
+    background-color: #343434;
+    border-radius: 0;
+    padding: 5px 0 20px 0;
+    text-transform: uppercase;
+    margin: 0;
+}
+.teamMember h1 {
+    background-color: #343434;
+    color: #fff;
+    padding: 25px 0 0 0;
+    font-family: 'Roboto Black', sans-serif;
+    font-size: 30px;
+}
+.teamMember .breadcrumb > li + li:before {
+    content: ""
+}
+.teamMember .breadcrumb li {
+    padding-right: 20px;
+}
+.teamMember .breadcrumb li a {
+    color: #95c300;
+}
+.breadcrumb > .active {
+    color: #fff;
+}
+.teamMember .container-fluid {
+    padding: 0;
+}
+.teamMemberSocial {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0 0 0;
+    border: 1px solid #e5e5e5;
+    border-top: none;
+}
+.teamMemberSocial h1 {
+    font-weight: 300;
+}
+.teamMemberSocial h1 span {
+    color: #95c300;
+    font-weight: 600;
+}
+.teamMemberContact {
+    padding: 10px 0 0 0;
+    color: #989898;
+    text-align: left;
+    font-size: 14px;
+    border: 1px solid #e5e5e5;
+    border-top: none;
+    font-weight: 400;
+}
+.teamMemberContact img:nth-of-type(1) {
+    margin-right: 5px;
+}
+.teamMemberContact img:nth-of-type(3) {
+    margin-right: 5px;
+}
+.teamMemberContact img:nth-of-type(4) {
+    margin-right: 15px;
+}
+.teamMemberContact img {
+    padding: 0 5px 10px 5px;
+}
+.teamMemberContact p span {
+    color: #666666;
+}
+.teamMemberBio {
+    padding: 15px 0 0 0;
+    font-size: 16px;
+}
+.teamMemberBio ul li {
+    color: #95c300;
+}
+.teamMemberBio ul {
+    list-style: none;
+    padding:0 0 10px 0;
+    margin:0;
+}
+.teamMemberBio ul li { 
+    padding-left: 1em; 
+    text-indent: -.7em;
+}
+.teamMemberBio ul li:before {
+    content: "•  ";
+    color: #8a5880;
+}
+.teamMemberBioTabs .nav-tabs > li.active > a, .teamMemberBioTabs .nav-tabs > li.active > a:hover, .teamMemberBioTabs .nav-tabs > li.active > a:focus {
+    color: #fff;
+    cursor: pointer;
+    background-color: #ffc232;
+    border: 1px solid #ddd;
+}
+.teamMemberBioTabs h4 {
+    padding: 10px 0 10px 0;
+}
+.teamMemberBioTabs .nav-tabs li a {
+    color:#666666;
+}
+.teamMemberBioTabs p {
+    overflow: hidden;
+}
+
+.filtr-container img {
+    width:640px;
+    height:100%;
+}

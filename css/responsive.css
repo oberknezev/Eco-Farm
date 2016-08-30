@@ -1,0 +1,310 @@
+@media screen and (min-width: 480px) {
+
+    .contactUs {
+        text-align: center;
+    }
+    .contactUs .form-group, .contactUs .form-control {
+        width: 320px;
+        margin: 5px auto;
+    }
+    .btn-default {
+        margin: 20px 0 10px 0;
+    }
+    .tabPanel figure {
+        height: 150px;
+    }
+    .aboutUs {
+        text-align: center;
+    }
+    .aboutUs img {
+        display: inline-block;
+        padding: 0 10px 0 0;
+    }
+    .aboutUs .experience span {
+        padding: 10px 0 0 0;
+        display: inline-block;
+    }
+    .testimonials .arrow_box {
+        padding: 10px 15px;
+    }
+    .newsWindow {
+        width: 360px;
+    }
+    .contacts {
+        padding-top: 10px;
+    }
+    footer .mwt, footer .allRights, footer .footerLogo {
+        float:none;
+    }
+    .mwt {
+        padding: 0 15px 0 0;
+        position: relative;
+        bottom: 35px;
+    }
+    .allRights {
+        padding: 0 0 0 15px;
+        position: relative;
+        bottom: 35px;
+    }
+    .footerLogo {
+        padding: 0;
+    }
+
+
+
+    /*    ------------------------------    teamMember.html PAGE 480px  ----- */
+    .teamMemberContact {
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .headerTop {
+        padding: 10px;
+        text-align: center;
+    }
+    .headerLogo {
+        display: inline-block;
+        width: 240px;
+    }
+    .headerSocial {
+        float:left;
+        width: 170px;
+        padding: 15px 0 0 5px;
+    }
+    .headerSocial ul li {
+        padding: 0 5px 10px 0;
+    }
+    .headerAddress {
+        float: right;
+        padding: 10px 20px 0 0;
+    }
+    .headerAddress .phoneNo {
+        font-size: 24px;
+    }
+    .shoppingCart {
+        display: inline-block;
+        float: left;
+        padding: 14px 0 0 0;
+        margin-left: -10px;
+    }
+    .shoppingCart span {
+        display: none;
+    }
+    .navbar-brand {
+        display: none;
+    }
+    .navbar ul li span {
+        display: none;
+    }
+    .navbar ul li .form-group {
+        margin-top: 0;
+        margin-bottom: 0;
+        display: none;
+    }
+    .navbar .form-group {
+        float: right;
+        margin: 0 -20px 0 0;
+    }
+    .contactUs .form-group, .contactUs .form-control {
+        width: 360px;
+    }
+    .aboutUs {
+        padding: 0 0 20px 0;
+    }
+    .aboutUs .girlVegetables {
+        padding-top: 70px;
+    }
+    .aboutUs p {
+        width: 90%;
+    }
+    .aboutUs .experience {
+        text-align: left;
+    }
+    .aboutUs .experience img{
+        display: inline-block;
+        margin: 0;
+    }
+    .aboutUs .experience span{
+        margin: 0;
+    }
+    .testimonials {
+        padding: 60px 0 20px 0;
+    }
+    .purchase {
+        padding: 35px 0;
+    }
+    .advantages {
+        padding: 15px 0;
+    }
+    #googleMap {
+        margin: 0;
+    }
+    #flickrBadge a{
+        margin: 5px;
+    }
+    .almostEnd {
+        padding: 20px 0;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+
+    .container {
+        width: 948px;
+    }
+    .headerAddress .phoneNo {
+        font-size: 30px;
+    }
+    .headerLogo {
+        width: auto;
+    }
+    .headerSocial {
+        width: auto;
+        padding: 45px 0 0 10px;
+    }
+    .headerSocial ul li a i {
+        margin:0;
+    }
+    .headerAddress {
+        padding: 20px 0 0 0;
+    }
+    .shoppingCart span {
+        display: inline-block;
+        padding: 0 0 0 10px;
+    }
+    .contactUs {
+        padding: 15px 0 140px 0;
+    }
+    .contactUs h1 {
+        padding: 40px 0 0 0 ;
+    }
+    .contactUs h3 {
+        padding-bottom: 30px;
+        margin: -10px 0 0 0;
+    }
+    .btn-default {
+        margin-bottom: 0;
+    }
+    .tabPanel figure {
+        height: 200px;
+    }
+    .services {
+        padding: 0;
+        margin-top: -130px;
+    }
+    .services h2 .healthy {
+        font-size: 29px;
+    }
+    .services h2 {
+        margin: -20px 0 0 0;
+    }
+    .services h5 {
+        width: 200px;
+    }
+    .testimonials .arrow_box {
+        padding: 20px 25px;
+    }
+    .news {
+        padding: 15px 0;
+    }
+    .newsWindow {
+        width: 280px;
+    }
+    .contacts {
+        padding: 20px 0;
+    }
+    .contactsHours h4 {
+        line-height: 20px;
+    }
+    .discount {
+        padding: 40px 0 0 0;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .container {
+        width: 1180px;
+    }
+    .contactUs {
+        padding: 90px 0 230px 0;
+    }
+    .contactUs .contactBorder {
+        padding-left: 40px;
+        text-align: left;
+    }
+    .contactUs .form-group {
+        margin:0;
+    }
+    .contactUs textarea {
+        position: relative;
+        left: -80px;
+    }
+    .contactUs h1 {
+        padding: 0;
+    }
+    .btn-default {
+        margin: 20px 0 0 0;
+        padding: 15px;
+    }
+    .tabPanel figure {
+        height: 300px;
+    }
+    .services h2 {
+        margin: 0;
+    }
+    .services h5 {
+        width: 240px;
+    }
+    .aboutUs {
+        text-align: left;
+    }
+    .aboutUs .girlVegetables {
+        padding:0;
+    }
+    .aboutUs h1 {
+        padding: 50px 0 0 0;
+    }
+    .aboutRightOut {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .aboutRightIn {
+        display: inline-block;
+    }
+    .testimonials {
+        padding: 110px 0 90px 0;
+    }
+    .testimonials .arrow_box {
+        padding: 50px 70px 50px 35px;
+    }
+    .news {
+        padding: 100px 0 110px 0;
+    }
+    .newsWindow {
+        width: 360px;
+    }
+    .purchase {
+        padding: 75px 0;
+    }
+    .advantages {
+        padding: 100px 0 ;
+    }
+    .advantagesPart p {
+        width: 250px;
+    }
+    .advantages h2 {
+        padding-bottom: 30px;
+    }
+    .contacts {
+        padding: 50px 0;
+    }
+    .almostEnd {
+        padding: 60px 0 80px 0;
+    }
+
+}
