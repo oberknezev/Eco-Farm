@@ -1,8 +1,5 @@
 @media screen and (min-width: 480px) {
 
-    .contactUs {
-        text-align: center;
-    }
     .contactUs .form-group, .contactUs .form-control {
         width: 320px;
         margin: 5px auto;
@@ -233,7 +230,7 @@
     .contactUs {
         padding: 90px 0 230px 0;
     }
-    .contactUs .contactBorder {
+    .contactBorder {
         padding-left: 40px;
         text-align: left;
     }
@@ -306,5 +303,11 @@
     .almostEnd {
         padding: 60px 0 80px 0;
     }
-
+    /* -----------------               PAGE CONTACTS*/
+    .contactUsEnd .contactBorder {
+        text-align: center;
+    }
+    .contactUsEnd form {
+    text-align: center;
+}
 }
