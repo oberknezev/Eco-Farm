@@ -102,6 +102,10 @@ a, a:hover, a:visited, a:active, a:focus {
 .navbar .nav {
     float: none;
 }
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:active {
+    color: #95c300;
+}
 .navbar ul li img {
     padding-right: 10px;
 }
