@@ -766,7 +766,7 @@ footer .mwt, footer .allRights, footer .footerLogo {
 
 
 
-/* ---------------------------             CONTACTS PAGE*/
+/* ---------------------------             CONTACTS PAGE   */
 .contactUsEnd .contactUs {
     background-image: none;
 }
@@ -774,4 +774,70 @@ footer .mwt, footer .allRights, footer .footerLogo {
 .contactUsEnd h3 {
     color: #666666;
     font-size: 30px;
+}
+
+/* ---------------------------               BLOG PAGE   */
+.topDesign {
+    background: url('../img/parks.png') no-repeat center center;
+}
+.topDesign h4 {
+    color: #fff;
+    font-size: 14px;
+    padding: 25px 0 0 0;
+}
+.topDesign h4::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 3px;
+    background-color: #ff8f3c;
+    margin: 15px auto;
+}
+.topDesign h1 {
+    padding: 40px 0;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+}
+.topDesign img {
+    padding: 0 0 15px 0;
+}
+.news .topPosts {
+    font-size: 30px;
+    font-weight: 300;
+    color: #666666;
+}
+.newsWindow p:last-of-type {
+    color: #95c300;
+    text-transform: uppercase;
+    padding: 0 0 30px 0;
+    margin: 0;
+}
+.middleLongSection .video {
+    border: 1px solid red;
+}
+.middleLongSection .video h4 {
+    display: inline-block;
+    float: left;
+    padding: 15px 0 0 10px;
+    color: #ff8f3c;
+    text-transform: uppercase;
+}
+.middleLongSection .video span {
+    float:right;
+    padding: 15px 10px 0 0;
+    text-transform: uppercase;
+    color: #95c300;
+}
+.middleLongSection .video h3 {
+    display: block;
+    padding: 30px 0 0 0;
+    color: #666666;
+    font-weight: 300;
+}
+.middleLongSection p {
+    padding: 15px 0 0 0;
+}
+iframe {
+    display: block;
 }
