@@ -766,7 +766,7 @@ footer .mwt, footer .allRights, footer .footerLogo {
 
 
 
-/* ---------------------------             CONTACTS PAGE   */
+/* ---------------------------             PAGE CONTACTS  */
 .contactUsEnd .contactUs {
     background-image: none;
 }
@@ -775,8 +775,25 @@ footer .mwt, footer .allRights, footer .footerLogo {
     color: #666666;
     font-size: 30px;
 }
+/*  --------------------------               PAGE PORTFOLIO */
+.portfolioGallery {
+    padding: 10px 0;
+}
+.portfolioGallery .simplefilter {
+    padding: 0;
+}
+.portfolioGallery .simplefilter li {
+    border: 1px solid #e5e5e5;
+    color: #4c4c4c;
+    background-color: #fff;
+    }
+    .portfolioGallery .simplefilter li.active {
+    color: #fff;
+    background-color: #95c300;
+    }
 
-/* ---------------------------               BLOG PAGE   */
+
+/* ---------------------------               PAGE BLOG      */
 .topDesign {
     background: url('../img/parks.png') no-repeat center center;
 }

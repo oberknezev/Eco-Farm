@@ -129,126 +129,108 @@
                 </div>
             </section>
 
+            <section class="portfolioGallery">
+                <div class="container">
+                    <!-- Filter Controls - Simple Mode -->
+                    <div class="row">
+                        <!-- A basic setup of simple mode filter controls, all you have to do is use data-filter="all"
+                        for an unfiltered gallery and then the values of your categories to filter between them -->
+                        <ul class="simplefilter text-center">
+                            <li class="active" data-filter="all">All</li>
+                            <li data-filter="1">Fruits</li>
+                            <li data-filter="2">Vegetables</li>
+                            <li data-filter="3">Berries</li>
+                            <li data-filter="4">Food</li>
+                            <li data-filter="5">Planting</li>
+                            <li data-filter="6">Organic</li>
+                            <li data-filter="7">Selecting</li>
+                        </ul>
+                    </div>
 
-            <div class="container">
-                <!-- Filter Controls - Simple Mode -->
-                <div class="row">
-                    <!-- A basic setup of simple mode filter controls, all you have to do is use data-filter="all"
-                    for an unfiltered gallery and then the values of your categories to filter between them -->
-                    <ul class="simplefilter">
-                        <li class="active" data-filter="all">All</li>
-                        <li data-filter="1">Fruits</li>
-                        <li data-filter="2">Vegetables</li>
-                        <li data-filter="3">Berries</li>
-                        <li data-filter="4">Food</li>
-                        <li data-filter="5">Planting</li>
-                        <li data-filter="6">Organic</li>
-                        <li data-filter="7">Selecting</li>
-                    </ul>
-                </div>
-
-
-                <!-- Shuffle & Sort Controls -->
-                <div class="row">
-                    <ul class="sortandshuffle">
-                        <!-- Basic shuffle control -->
-                        <li class="shuffle-btn" data-shuffle>Shuffle</li>
-                        <!-- Basic sort controls consisting of asc/desc button and a select -->
-                        <li class="sort-btn active" data-sortAsc>Asc</li>
-                        <li class="sort-btn" data-sortDesc>Desc</li>
-                    </ul>
-                </div>
-
-                <!-- Search control -->
-                <div class="row search-row">
-                    Search control:
-                    <input type="text" class="filtr-search" name="filtr-search" data-search>
-                </div>
-
-                <div class="row">
-                    <!-- This is the set up of a basic gallery, your items must have the categories they belong to in a data-category
-                    attribute, which starts from the value 1 and goes up from there -->
-                    <div class="filtr-container">
-                        <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="3" data-sort="Berries">
-                            <img class="img-responsive" src="img/tabImg/b1.png" alt="sample image">
-                            <span class="item-desc">Blackberries</span>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="3" data-sort="Berries">
-                            <img class="img-responsive" src="img/tabImg/b2.png" alt="sample image">
-                            <span class="item-desc">Blueberries</span>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="3" data-sort="Berries">
-                            <img class="img-responsive" src="img/tabImg/b3.png" alt="sample image">
-                            <span class="item-desc">Strawberries</span>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="3" data-sort="Berries">
-                            <img class="img-responsive" src="img/tabImg/b4.png" alt="sample image">
-                            <span class="item-desc">Raspberries</span>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="4" data-sort="Food">
-                            <img class="img-responsive" src="img/tabImg/f1.png" alt="sample image">
-                            <span class="item-desc">Food</span>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="4" data-sort="Food">
-                            <img class="img-responsive" src="img/tabImg/f2.png" alt="sample image">
-                            <span class="item-desc">Food</span>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="4" data-sort="Food">
-                            <img class="img-responsive" src="img/tabImg/f3.png" alt="sample image">
-                            <span class="item-desc">Food</span>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="1" data-sort="Fruits">
-                            <img class="img-responsive" src="img/tabImg/fr1.png" alt="sample image">
-                            <span class="item-desc">Fruits</span>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="1" data-sort="Fruits">
-                            <img class="img-responsive" src="img/tabImg/fr2.png" alt="sample image">
-                            <span class="item-desc">Fruits</span>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="1" data-sort="Fruits">
-                            <img class="img-responsive" src="img/tabImg/fr3.png" alt="sample image">
-                            <span class="item-desc">Fruits</span>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="6" data-sort="Organic">
-                            <img class="img-responsive" src="img/tabImg/o1.png" alt="sample image">
-                            <span class="item-desc">Organic</span>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="5" data-sort="Planting">
-                            <img class="img-responsive" src="img/tabImg/p1.png" alt="sample image">
-                            <span class="item-desc">Planting</span>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="5" data-sort="Planting">
-                            <img class="img-responsive" src="img/tabImg/p2.png" alt="sample image">
-                            <span class="item-desc">Planting</span>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="5" data-sort="Planting">
-                            <img class="img-responsive" src="img/tabImg/p3.png" alt="sample image">
-                            <span class="item-desc">Planting</span>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="5" data-sort="Planting">
-                            <img class="img-responsive" src="img/tabImg/p4.png" alt="sample image">
-                            <span class="item-desc">Planting</span>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="2" data-sort="Vegetables">
-                            <img class="img-responsive" src="img/tabImg/veg1.png" alt="sample image">
-                            <span class="item-desc">Vegetables</span>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="2" data-sort="Vegetables">
-                            <img class="img-responsive" src="img/tabImg/veg2.png" alt="sample image">
-                            <span class="item-desc">Vegetables</span>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="2" data-sort="Vegetables">
-                            <img class="img-responsive" src="img/tabImg/veg3.png" alt="sample image">
-                            <span class="item-desc">Vegetables</span>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="2" data-sort="Vegetables">
-                            <img class="img-responsive" src="img/tabImg/veg4.png" alt="sample image">
-                            <span class="item-desc">Vegetables</span>
+                    <div class="row">
+                        <!-- This is the set up of a basic gallery, your items must have the categories they belong to in a data-category
+                        attribute, which starts from the value 1 and goes up from there -->
+                        <div class="filtr-container">
+                            <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="3" data-sort="Berries">
+                                <img class="img-responsive" src="img/tabImg/b1.png" alt="sample image">
+                                <span class="item-desc">Blackberries</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="3" data-sort="Berries">
+                                <img class="img-responsive" src="img/tabImg/b2.png" alt="sample image">
+                                <span class="item-desc">Blueberries</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="3" data-sort="Berries">
+                                <img class="img-responsive" src="img/tabImg/b3.png" alt="sample image">
+                                <span class="item-desc">Strawberries</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="3" data-sort="Berries">
+                                <img class="img-responsive" src="img/tabImg/b4.png" alt="sample image">
+                                <span class="item-desc">Raspberries</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="4" data-sort="Food">
+                                <img class="img-responsive" src="img/tabImg/f1.png" alt="sample image">
+                                <span class="item-desc">Food</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="4" data-sort="Food">
+                                <img class="img-responsive" src="img/tabImg/f2.png" alt="sample image">
+                                <span class="item-desc">Food</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="4" data-sort="Food">
+                                <img class="img-responsive" src="img/tabImg/f3.png" alt="sample image">
+                                <span class="item-desc">Food</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="1" data-sort="Fruits">
+                                <img class="img-responsive" src="img/tabImg/fr1.png" alt="sample image">
+                                <span class="item-desc">Fruits</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="1" data-sort="Fruits">
+                                <img class="img-responsive" src="img/tabImg/fr2.png" alt="sample image">
+                                <span class="item-desc">Fruits</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="1" data-sort="Fruits">
+                                <img class="img-responsive" src="img/tabImg/fr3.png" alt="sample image">
+                                <span class="item-desc">Fruits</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="6" data-sort="Organic">
+                                <img class="img-responsive" src="img/tabImg/o1.png" alt="sample image">
+                                <span class="item-desc">Organic</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="5" data-sort="Planting">
+                                <img class="img-responsive" src="img/tabImg/p1.png" alt="sample image">
+                                <span class="item-desc">Planting</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="5" data-sort="Planting">
+                                <img class="img-responsive" src="img/tabImg/p2.png" alt="sample image">
+                                <span class="item-desc">Planting</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="5" data-sort="Planting">
+                                <img class="img-responsive" src="img/tabImg/p3.png" alt="sample image">
+                                <span class="item-desc">Planting</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="5" data-sort="Planting">
+                                <img class="img-responsive" src="img/tabImg/p4.png" alt="sample image">
+                                <span class="item-desc">Planting</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="2" data-sort="Vegetables">
+                                <img class="img-responsive" src="img/tabImg/veg1.png" alt="sample image">
+                                <span class="item-desc">Vegetables</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="2" data-sort="Vegetables">
+                                <img class="img-responsive" src="img/tabImg/veg2.png" alt="sample image">
+                                <span class="item-desc">Vegetables</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="2" data-sort="Vegetables">
+                                <img class="img-responsive" src="img/tabImg/veg3.png" alt="sample image">
+                                <span class="item-desc">Vegetables</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="2" data-sort="Vegetables">
+                                <img class="img-responsive" src="img/tabImg/veg4.png" alt="sample image">
+                                <span class="item-desc">Vegetables</span>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-
+            </section>
 
 
 
