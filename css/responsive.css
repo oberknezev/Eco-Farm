@@ -51,7 +51,6 @@
 
     /*    ------------------------------    teamMember.html PAGE 480px  ----- */
     .teamMemberContact {
-        text-align: center;
     }
 
 }
@@ -315,7 +314,13 @@
         margin: 0 15px;
     }
     /* -----------------                  PAGE CONTACTS*/
+    .contactUsEnd {
+        padding: 20px 0 10px 0;
+    }
     .contactUsEnd .contactBorder {
+        text-align: center;
+    }
+    .contactUsEnd .contactUs form {
         text-align: center;
     }
     .contactUsEnd .contactUs .form-group {
@@ -323,6 +328,7 @@
     }
     .contactUsEnd .contactUs .form-control {
         margin: 5px auto;
+        text-align: center;
     }
     .contactUsEnd h3 {
         font-size: 30px;

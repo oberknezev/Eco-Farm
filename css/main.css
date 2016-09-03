@@ -55,7 +55,6 @@ a, a:hover, a:visited, a:active, a:focus {
     float: left;
 }
 .headerSocial ul li a i {
-    color: red;
     width: 40px;
     height: auto;
     font-size: 25px;
@@ -652,36 +651,36 @@ footer .mwt, footer .allRights, footer .footerLogo {
 
 
 /*------------------------------------- teamMember.html PAGE*/
-.teamMember {
+.breadcrumbTop {
     text-align: center;
 }
-.teamMember .breadcrumb {
+.breadcrumbTop .breadcrumb {
     background-color: #343434;
     border-radius: 0;
     padding: 5px 0 20px 0;
     text-transform: uppercase;
     margin: 0;
 }
-.teamMember h1 {
+.breadcrumbTop h1 {
     background-color: #343434;
     color: #fff;
     padding: 25px 0 0 0;
     font-family: 'Roboto Black', sans-serif;
     font-size: 30px;
 }
-.teamMember .breadcrumb > li + li:before {
+.breadcrumbTop .breadcrumb > li + li:before {
     content: ""
 }
-.teamMember .breadcrumb li {
+.breadcrumbTop .breadcrumb li {
     padding-right: 20px;
 }
-.teamMember .breadcrumb li a {
+.breadcrumbTop .breadcrumb li a {
     color: #95c300;
 }
 .breadcrumb > .active {
     color: #fff;
 }
-.teamMember .container-fluid {
+.breadcrumbTop .container-fluid {
     padding: 0;
 }
 .teamMemberSocial {
@@ -719,8 +718,44 @@ footer .mwt, footer .allRights, footer .footerLogo {
 .teamMemberContact img {
     padding: 0 5px 10px 5px;
 }
-.teamMemberContact p span {
+.teamMemberContact span {
     color: #666666;
+}
+.teamMemberContact span:nth-of-type(1) {
+    position: relative;
+    right: 3px;
+}
+.teamMemberContact span:nth-of-type(2) {
+    display: block;
+    padding: 0 0 0 43px;
+    position: relative;
+    bottom: 10px;
+}
+.teamMemberContact figure {
+    position: relative;
+}
+.teamMemberContact figure h5 {
+    position: absolute;
+    top: 30px;
+    left: 108px;
+    font-weight: 400;
+}
+.teamMemberContact figure:nth-child(2) img {
+    position: relative;
+    top: 12px;
+}
+.teamMemberContact figure:first-child img {
+    margin: 0 0 0 3px;
+}
+.teamMemberContact figure:last-child img {
+    padding-right: 13px;
+    margin: 4px 0 0 4px;
+}
+.teamMemberContact a:hover {
+    color: #95c300;
+}
+.teamMemberSocial .headerSocial  ul li a i {
+    font-size: 20px;
 }
 .teamMemberBio {
     padding: 15px 0 0 0;
