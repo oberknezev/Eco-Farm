@@ -766,15 +766,7 @@ footer .mwt, footer .allRights, footer .footerLogo {
 
 
 
-/* ---------------------------             PAGE CONTACTS  */
-.contactUsEnd .contactUs {
-    background-image: none;
-}
 
-.contactUsEnd h3 {
-    color: #666666;
-    font-size: 30px;
-}
 /*  --------------------------               PAGE PORTFOLIO */
 .portfolioGallery {
     padding: 10px 0;
@@ -857,4 +849,14 @@ footer .mwt, footer .allRights, footer .footerLogo {
 }
 iframe {
     display: block;
+}
+/* ---------------------------             PAGE CONTACTS  */
+.contactUsEnd .contactUs {
+    background-image: none;
+}
+
+.contactUsEnd h3 {
+    color: #666666;
+    font-size: 24px;
+    font-weight: 300;
 }

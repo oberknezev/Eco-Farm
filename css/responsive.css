@@ -220,6 +220,14 @@
     .discount {
         padding: 40px 0 0 0;
     }
+    /* -----------------                  PAGE CONTACTS*/
+    .contactUsEnd .contactUs {
+        padding: 15px 0 40px 0;   
+    }
+    padding: 15px 0 140px 0;
+    .contactUsEnd h3 {
+        font-size: 28px;
+    }
 }
 
 @media only screen and (min-width: 1280px) {
@@ -230,13 +238,15 @@
     .contactUs {
         padding: 90px 0 230px 0;
     }
-    .contactBorder {
+    .contactUs .contactBorder {
         padding-left: 15px;
         text-align: left;
     }
     .contactUs .form-group {
+        margin: 5px 0;
     }
-    .contactUs form {
+    .contactUs .form-control {
+        margin: 5px 0;
     }
     .contactUs h1 {
         padding: 0;
@@ -300,15 +310,21 @@
     .almostEnd {
         padding: 60px 0 80px 0;
     }
-    /* -----------------               PAGE CONTACTS*/
-    .contactUsEnd .contactBorder {
-        text-align: center;
-    }
-    .contactUsEnd form {
-        text-align: center;
-    }
     /*    -----------------               PAGE PORTFOLIO*/
     .portfolioGallery .simplefilter li {
         margin: 0 15px;
+    }
+    /* -----------------                  PAGE CONTACTS*/
+    .contactUsEnd .contactBorder {
+        text-align: center;
+    }
+    .contactUsEnd .contactUs .form-group {
+        margin: 5px auto;
+    }
+    .contactUsEnd .contactUs .form-control {
+        margin: 5px auto;
+    }
+    .contactUsEnd h3 {
+        font-size: 30px;
     }
 }
