@@ -11,7 +11,7 @@ $(document).ready(function (){
 
 //GOOGLE MAP
 var myCenter = new google.maps.LatLng(51.487572, -0.158280);
-function initialize(){
+window.initialize = function(){
     var mapProp = {
         center: myCenter,
         zoom: 15,
