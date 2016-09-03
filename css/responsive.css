@@ -231,13 +231,12 @@
         padding: 90px 0 230px 0;
     }
     .contactBorder {
+        padding-left: 15px;
         text-align: left;
     }
     .contactUs .form-group {
-        margin:0 auto;
     }
-    .contactUs textarea {
-        position: relative;
+    .contactUs form {
     }
     .contactUs h1 {
         padding: 0;
