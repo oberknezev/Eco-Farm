@@ -50,10 +50,34 @@
 
 
     /*    ------------------------------    teamMember.html PAGE 480px  ----- */
-    .teamMemberContact {
-        
+    .teamMemberSocial .headerSocial {
+        float: none;
+        margin: 0 auto;
     }
-
+    .teamMemberContact {
+        text-align: center;
+    }
+    .teamMemberContact div {
+        display: inline-block;
+    }
+    .teamMemberContact span:nth-of-type(2) {
+        display: inline;
+        padding:0;
+        position: static;
+    }
+    .teamMemberContact figure h5 {
+        position: static;
+        font-weight: 400;
+        display: inline;
+    }
+    .teamMemberContact figure:nth-child(1) img {
+        margin-right: 3px; 
+    }
+    .teamMemberContact figure:nth-child(2) img {
+        top: 4px;
+    }
+    
+    
 }
 
 @media screen and (min-width: 768px) {

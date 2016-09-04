@@ -721,6 +721,9 @@ footer .mwt, footer .allRights, footer .footerLogo {
 .teamMemberContact span {
     color: #666666;
 }
+.teamMemberContact figure {
+    position: relative;
+}
 .teamMemberContact span:nth-of-type(1) {
     position: relative;
     right: 3px;
@@ -731,8 +734,8 @@ footer .mwt, footer .allRights, footer .footerLogo {
     position: relative;
     bottom: 10px;
 }
-.teamMemberContact figure {
-    position: relative;
+.teamMemberContact figure:nth-child(3) img {
+    margin-top: 7px; 
 }
 .teamMemberContact figure h5 {
     position: absolute;
@@ -813,11 +816,11 @@ footer .mwt, footer .allRights, footer .footerLogo {
     border: 1px solid #e5e5e5;
     color: #4c4c4c;
     background-color: #fff;
-    }
-    .portfolioGallery .simplefilter li.active {
+}
+.portfolioGallery .simplefilter li.active {
     color: #fff;
     background-color: #95c300;
-    }
+}
 
 
 /* ---------------------------               PAGE BLOG      */
