@@ -49,7 +49,7 @@
 
 
 
-    /*    ------------------------------    teamMember.html PAGE 480px  ----- */
+    /*    ------------------------------    PAGE TEAM-MEMBER    480px  ----- */
     .teamMemberSocial .headerSocial {
         float: none;
         margin: 0 auto;
@@ -244,7 +244,11 @@
     .discount {
         padding: 40px 0 0 0;
     }
-    /* -----------------                  PAGE CONTACTS*/
+    /* -----------------                  PAGE TEAM MEMBER   992px */
+    .teamMemberSocial .headerSocial {
+        padding-top: 20px;
+    }
+    /* -----------------                  PAGE CONTACTS      992px*/
     .contactUsEnd .contactUs {
         padding: 15px 0 40px 0;   
     }

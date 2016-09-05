@@ -780,11 +780,21 @@ footer .mwt, footer .allRights, footer .footerLogo {
     content: "•  ";
     color: #8a5880;
 }
+.teamMemberBioTabs {
+    border: 1px solid #ffc232;
+    padding: 0 20px 10px 30px;
+}
 .teamMemberBioTabs .nav-tabs > li.active > a, .teamMemberBioTabs .nav-tabs > li.active > a:hover, .teamMemberBioTabs .nav-tabs > li.active > a:focus {
     color: #fff;
     cursor: pointer;
     background-color: #ffc232;
-    border: 1px solid #ddd;
+    border: none;
+    border-radius: 0;
+}
+.teamMemberBioTabs .nav-tabs {
+    border:none;
+    position: relative;
+    right: 30px;
 }
 .teamMemberBioTabs h4 {
     padding: 10px 0 10px 0;
