@@ -256,6 +256,10 @@
     .contactUsEnd h3 {
         font-size: 28px;
     }
+    /* -----------------                  PAGE BLOG          992px*/
+    .topDesign {
+        padding: 80px 0 50px 0;
+    }
 }
 
 @media only screen and (min-width: 1280px) {
@@ -338,11 +342,11 @@
     .almostEnd {
         padding: 60px 0 80px 0;
     }
-    /*    -----------------               PAGE PORTFOLIO*/
+    /*    -----------------               PAGE PORTFOLIO 1280px   */
     .portfolioGallery .simplefilter li {
         margin: 0 15px;
     }
-    /* -----------------                  PAGE CONTACTS*/
+    /* -----------------                  PAGE CONTACTS 1280px   */
     .contactUsEnd {
         padding: 20px 0 10px 0;
     }
@@ -361,5 +365,9 @@
     }
     .contactUsEnd h3 {
         font-size: 30px;
+    }
+    /* -----------------                  PAGE BLOG 1280px   */
+    .topDesign {
+        padding: 120px 0 100px 0;
     }
 }
