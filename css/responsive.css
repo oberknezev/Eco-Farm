@@ -345,9 +345,17 @@
     .almostEnd {
         padding: 60px 0 80px 0;
     }
+    /*    -----------------               PAGE teamMember 1280px   */
+    .teamMemberData {
+        padding: 0 30px;
+    }
     /*    -----------------               PAGE PORTFOLIO 1280px   */
     .portfolioGallery .simplefilter li {
         margin: 0 15px;
+    }
+    /* -----------------                  PAGE BLOG 1280px   */
+    .topDesign {
+        padding: 120px 0 100px 0;
     }
     /* -----------------                  PAGE CONTACTS 1280px   */
     .contactUsEnd {
@@ -369,8 +377,5 @@
     .contactUsEnd h3 {
         font-size: 30px;
     }
-    /* -----------------                  PAGE BLOG 1280px   */
-    .topDesign {
-        padding: 120px 0 100px 0;
-    }
+    
 }

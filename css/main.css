@@ -688,6 +688,10 @@ footer .mwt, footer .allRights, footer .footerLogo {
 .breadcrumbTop .container-fluid {
     padding: 0;
 }
+
+.teamMember1 img{
+    margin: 0 auto;
+}
 .teamMemberSocial {
     text-transform: uppercase;
     text-align: center;
@@ -788,6 +792,7 @@ footer .mwt, footer .allRights, footer .footerLogo {
 .teamMemberBioTabs {
     border: 1px solid #ffc232;
     padding: 0 20px 10px 30px;
+    margin: 0 0 15px 0;
 }
 .teamMemberBioTabs .nav-tabs > li.active > a, .teamMemberBioTabs .nav-tabs > li.active > a:hover, .teamMemberBioTabs .nav-tabs > li.active > a:focus {
     color: #fff;
