@@ -169,7 +169,10 @@
     .almostEnd {
         padding: 20px 0;
     }
-
+/* -----------------                  PAGE Page404         768px*/
+.page404 h4 {
+    padding: 50px 0;
+}
 }
 
 @media only screen and (min-width: 992px) {

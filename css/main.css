@@ -136,6 +136,11 @@ a, a:hover, a:visited, a:active, a:focus {
 .navbar {
     margin: 0;
 }
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    color: #95C300;
+    text-decoration: none;
+    background-color: #e7e7e7;
+}
 .dropdown-submenu {
     position: relative;
 }
@@ -534,7 +539,7 @@ a, a:hover, a:visited, a:active, a:focus {
     color: #989898;
     font-size: 16px;
 }
-.contacts h4:nth-child(3) {    /*zasto ovde radi posao na nth child 3 a ne na nth child 2 od h4 kao sto bi bilo logicno?*/
+.contacts h4:nth-child(3) {    
     padding-bottom: 10px;
 }
 .contacts span {
@@ -650,7 +655,7 @@ footer .mwt, footer .allRights, footer .footerLogo {
 
 
 
-/*------------------------------------- teamMember.html PAGE*/
+/*------------------------------------- PAGE TeamMember*/
 .breadcrumbTop {
     text-align: center;
 }
@@ -810,7 +815,22 @@ footer .mwt, footer .allRights, footer .footerLogo {
     width:640px;
     height:100%;
 }
-
+/*  --------------------------               PAGE 404 */
+.page404 {
+    padding: 10px 0;
+}
+.page404 h4 {
+    padding: 10px 0;
+}
+.page404 img {
+    margin: 0 auto;
+}
+.page404 a {
+    color: darkgray;
+}
+.page404 a:hover {
+    color: #95C300;
+}
 
 
 
